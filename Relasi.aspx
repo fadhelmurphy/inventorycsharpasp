@@ -53,7 +53,7 @@
                 Penjualan
             </a>
             <a class="list-group-item list-group-item-action flex-column align-items-start text-secondary active" href="Relasi.aspx">
-                Kontak/Relasi
+                Suplier/Client
             </a>
             <li class="list-group-item sidebar-separator-title text-muted d-flex align-items-center menu-collapsed bg-light">
                 <small>FADHEL IJLAL FALAH 2019</small>

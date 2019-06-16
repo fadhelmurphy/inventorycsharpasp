@@ -104,7 +104,7 @@ namespace SistemBarang
 
         protected void AddButton_Click(object sender, EventArgs e)
         {
-            queryS = String.Format("INSERT INTO stokbarang(id,nama,label,jumlahMinimal)VALUES" +
+            queryS = String.Format("INSERT INTO stokbarang(id,nama,jenis,jumlahMinimal)VALUES" +
                                     "('{0}','{1}','{2}',{3})",
                                     addIdBarang.Text, addNama.Text, addLabel.Text, addJumMin.Text);
             accesscon.OpenConnection();

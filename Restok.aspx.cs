@@ -73,7 +73,7 @@ namespace SistemBarang
             oledb.openQuerySQL(queryS);
             oledb.CloseConnection();
 
-            Response.Redirect("RestokBarang.aspx");
+            Response.Redirect("Restok.aspx");
         }
 
         protected void EditButton_Click(object sender, EventArgs e)
@@ -84,7 +84,7 @@ namespace SistemBarang
             oledb.openQuerySQL(queryS);
             oledb.CloseConnection();
 
-            Response.Redirect("RestokBarang.aspx");
+            Response.Redirect("Restok.aspx");
         }
 
         protected void DelButton_Click(object sender, EventArgs e)
