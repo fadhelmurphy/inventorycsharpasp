@@ -116,7 +116,7 @@ namespace SistemBarang
 
         protected void EditButton_Click(object sender, EventArgs e)
         {
-            queryS = String.Format("UPDATE stokbarang SET id='{0}',nama='{1}',label='{2}',jumlahMinimal={3} where id='{4}'",
+            queryS = String.Format("UPDATE stokbarang SET id='{0}',nama='{1}',jenis='{2}',jumlahMinimal={3} where id='{4}'",
                                     addIdBarang.Text, addNama.Text, addLabel.Text, addJumMin.Text,idBarangTarget.Text);
             accesscon.OpenConnection();
             accesscon.openQuerySQL(queryS);
