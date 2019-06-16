@@ -77,7 +77,7 @@ namespace SistemBarang
             accesscon.openQuerySQL(queryS);
             accesscon.CloseConnection();
 
-            Response.Redirect("PenjualanBarang.aspx");
+            Response.Redirect("Penjualan.aspx");
         }
 
         protected void EditButton_Click(object sender, EventArgs e)
@@ -89,7 +89,7 @@ namespace SistemBarang
             accesscon.openQuerySQL(queryS);
             accesscon.CloseConnection();
 
-            Response.Redirect("PenjualanBarang.aspx");
+            Response.Redirect("Penjualan.aspx");
         }
 
         protected void DelButton_Click(object sender, EventArgs e)
@@ -100,7 +100,7 @@ namespace SistemBarang
             accesscon.openQuerySQL(queryS);
             accesscon.CloseConnection();
 
-            Response.Redirect("PenjualanBarang.aspx");
+            Response.Redirect("Penjualan.aspx");
         }
     }
 }
