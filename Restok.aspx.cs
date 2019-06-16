@@ -95,7 +95,7 @@ namespace SistemBarang
             oledb.openQuerySQL(queryS);
             oledb.CloseConnection();
 
-            Response.Redirect("RestokBarang.aspx");
+            Response.Redirect("Restok.aspx");
         }
     }
 }
